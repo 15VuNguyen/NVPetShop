@@ -1,0 +1,354 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 9, 2024, 3:34:42 AM
+    Author     : acer
+*/
+
+.header_first_test {
+  background-color: #45c4b0;
+  position: sticky;
+  top: 0;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.header__logo {
+  width: 20%;
+  display: flex;
+}
+
+.header__logo p {
+  margin: auto 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  color: #012030;
+  text-shadow: 0.5px 0.5px 10px #dafdba;
+}
+
+.header__logo a {
+  text-decoration: none;
+}
+
+.header__logo a p {
+  margin-top: 10px;
+}
+
+/* logo */
+.header__logo img {
+  /* border-radius: 50%; */
+  width: 80px;
+  height: 80px;
+  text-align: left;
+  /* margin-left: 50px; */
+  /* opacity: 0.7; */
+}
+
+.header__right {
+  width: 80%;
+  display: flex;
+}
+
+/* nav */
+.header__nav {
+  margin: auto 0;
+  margin-right: 80px;
+}
+
+.header__nav ul {
+  display: flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.header__nav li {
+  margin-left: 10px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+}
+#about {
+  font-weight: 500;
+  background-color: #9aeba3;
+  border-radius: 2px;
+}
+
+.header__nav a:hover {
+  text-decoration: underline;
+  color: #012030;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+/* cart */
+.header__cart img {
+  /* border-radius: 50%; */
+  width: 50px;
+  height: 50px;
+  /* margin-right: 50px; */
+  margin-top: 10px;
+  /* display: none; */
+  /* cursor: pointer; */
+}
+
+/* body */
+
+.about_body__title {
+  margin-top: 100px;
+  text-shadow: 4px -1px 2px #012030;
+}
+
+.about_body__title h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 60px;
+  color: #13678a;
+}
+
+.about_body__title h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  color: #13678a;
+}
+
+/* body intro */
+
+.about_body__intro {
+  display: flex;
+  margin: 30px 0 80px;
+}
+
+.about_body__intro p {
+  font-size: 21px;
+}
+
+.about_body__intro img {
+  width: 50%;
+}
+
+/* body event */
+
+.about_body__event {
+  margin-bottom: 80px;
+}
+.about_body__event__list {
+  display: flex;
+  justify-content: space-between;
+}
+.about_body__event__block {
+  width: 48%;
+}
+
+.about_body__event__block h5 {
+  margin-top: 1px;
+  display: inline-block;
+  background-color: #13678a;
+  color: white;
+  width: 100%;
+  font-size: 35px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.about_body__event__block img {
+  width: 100%;
+}
+
+/* body question */
+/* (A) HIDE CHECKBOX & CONTENT */
+.body__FAQ {
+  margin-bottom: 100px;
+}
+.body__FAQ h3 {
+  background-color: #45c4b0;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding: 10px 15px;
+}
+.a-tab {
+  background-color: #2fa493;
+  margin: 30px 20px;
+  width: 60%;
+  text-align: left;
+  padding: 15px 13px;
+  font-size: 24px;
+}
+
+.a-label {
+  color: white;
+}
+
+.a-label:hover {
+  color: #012030;
+  transition: 0.3s;
+}
+
+.a-content {
+  width: 100%;
+  color: white;
+}
+
+.a-content hr {
+  color: #012030;
+}
+
+.a-check {
+  display: none;
+}
+.a-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* (B) SHOW CONTENT ON CHECKED */
+.a-check:checked ~ .a-content {
+  max-height: 500px;
+  overflow: auto;
+}
+.a-content {
+  transition: all 0.2s;
+}
+
+/* footer */
+.footer_first_test {
+  background-color: #45c4b0;
+}
+.footer_first_test h4 {
+  margin-bottom: 0;
+  padding: 7px 0;
+  color: white;
+  font-style: italic;
+}
+
+/* login form */
+.main {
+  display: none;
+  width: 350px;
+  height: 500px;
+  background: red;
+  overflow: hidden;
+  background: url("../img/blog7_dogForCatPeople.jpg") no-repeat center/ cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+  position: fixed;
+  z-index: 99999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#chk {
+  display: none;
+}
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.main label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.main input {
+  width: 70%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.main button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.main button:hover {
+  background: #6d44b8;
+}
+.login {
+  height: 460px;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
+}
+.login label {
+  color: #573b8a;
+  transform: scale(0.6);
+}
+
+#chk:checked ~ .login {
+  transform: translateY(-500px);
+}
+#chk:checked ~ .login label {
+  transform: scale(1);
+}
+#chk:checked ~ .signup label {
+  transform: scale(0.6);
+}
+
+.main img {
+  width: 30px;
+  height: 30px;
+  margin-left: 320px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.main img:hover {
+  background-color: #573b8a;
+}
+
+.header button {
+  background-color: white;
+  color: #13678a;
+
+  border: none;
+  /* margin-left: 270px; */
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
+.header button:hover {
+  color: white;
+  background-color: #13678a;
+  transition: 0.3s;
+}
